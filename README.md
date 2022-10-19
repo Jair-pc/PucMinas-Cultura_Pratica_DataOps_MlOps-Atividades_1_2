@@ -4,7 +4,7 @@
 
 ## Atividade 1
 
-## Objetivo: ETL utilizando o Pyspark .
+**Objetivo:** ETL utilizando o Pyspark .
 
 ## Etapas a serem desenvolvidas:
 
@@ -23,11 +23,12 @@
 
 5 - Criar dataset tratado no formato parquet.    
 
-OBS: Todos os dados que não se encontram no formato ou range correto devem ser excluídos do dataset.   
+**OBS:** Todos os dados que não se encontram no formato ou range correto devem ser excluídos do dataset.   
 
-OBS2: Criar um arquivo com os registros removidos contendo a mensagem do erro conforme exemplo:   
+**OBS2:** Criar um arquivo com os registros removidos contendo a mensagem do erro conforme exemplo:   
 
-1 - sepal_length,sepal_width,petal_length,petal_width,class,classEncoder,messageError     
+1 - sepal_length,sepal_width,petal_length,petal_width,class,classEncoder,messageError
+
 2 - 5.1,3.5,1.4,0.2,Iris-setosa,0, sepal_width maior que 4.4    
 
 - [Atividade 01](./Trabalho_01/)  
@@ -35,7 +36,7 @@ OBS2: Criar um arquivo com os registros removidos contendo a mensagem do erro co
 
 ## Atividade 2   
 
-**Negrito** Objetivo: Orquestrar todo o fluxo de processamento necessários para execução de um modelo de machine learning utilizando o airflow.   
+**Objetivo:** Orquestrar todo o fluxo de processamento necessários para execução de um modelo de machine learning utilizando o airflow.   
 
 ## Etapas a serem desenvolvidas:   
 
@@ -48,11 +49,14 @@ OBS2: Criar um arquivo com os registros removidos contendo a mensagem do erro co
  * classEncoder range(0,2)   
  * class ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']   
    
-2 - Criar uma task de grupo que contenha:   
-* Execução algoritmo1 de ML para o dataset Iris
-* Execução algoritmo2 de ML para o dataset Iris
-      OBS1: O processamento deve ser realizado de forma paralela
+2 - Criar uma task de grupo que contenha: 
 
-      OBS2: Utilizar o MLFlow para gerenciar os modelos criados
+* Execução algoritmo1 de ML para o dataset Iris
+* 
+* Execução algoritmo2 de ML para o dataset Iris
+* 
+      **OBS1:** O processamento deve ser realizado de forma paralela
+
+      **OBS2:** Utilizar o MLFlow para gerenciar os modelos criados
 
 - [Atividade 02](./Trabalho_02/)
