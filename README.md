@@ -1,4 +1,6 @@
-# Cultura e Práticas Dataops e Mlops - PUC MINAS
+## PÓS GRADUAÇÃO ENGENHERIA DE DADOS PUC MINAS
+
+# Cultura e Práticas Dataops e Mlops
 
 ## Atividades
 
