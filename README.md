@@ -1,4 +1,4 @@
-# Cultura e Práticas Dataops e Mlops
+# Cultura e Práticas Dataops e Mlops - PUC MINAS
 
 ## Atividades
 
