@@ -12,12 +12,13 @@
 
 2 - Criar uma task pre-processamento para validar se os dados se encontram no formato correto utilizando Pyspark:
 
-sepal_length range( 4.3,7.9)
-sepal_width range(2.0,4.4)
-petal_length range(1.0,6.9)
-petal_width range(0.1,2.5)
-classEncoder range(0,2)
-class ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']
+ 1- sepal_length range( 4.3,7.9)
+ 2- sepal_width range(2.0,4.4)
+ 3- petal_length range(1.0,6.9)
+ 4- petal_width range(0.1,2.5)
+ 5- classEncoder range(0,2)
+ 6- class ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']
+
 4 - Utilizar a lib pydeequ para gerar o data quality report. (Gerar o report após a leitura do arquivo e após ter realizado o tratamento dos dados.)
 
 5 - Criar dataset tratado no formato parquet.
@@ -41,7 +42,7 @@ Objetivo: Orquestrar todo o fluxo de processamento necessários para execução 
 - Criar uma task etl responsável pela leitura do arquivo Iris tratado (Atividade 01) e utilize a lib 
 pandas-schema para verificar se os dados estão no formato correto. Se o arquivo estiver correto continuar para a próxima task e em caso de erro pausar o processamento e enviar mensagem de erro.
  
- 1- sepal_length range( 4.3,7.9)
+ 1- sepal_length range(4.3,7.9)
  2- sepal_width range(2.0,4.4)
  3- petal_length range(1.0,6.9)
  4 -petal_width range(0.1,2.5)
