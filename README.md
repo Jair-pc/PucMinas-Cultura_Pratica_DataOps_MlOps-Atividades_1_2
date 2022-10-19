@@ -2,7 +2,7 @@
 
 # Cultura e Práticas Dataops e Mlops
 
-## Atividades
+## Professor Jean Carlos Alves
 
 ## Atividade 1
 
