@@ -12,12 +12,12 @@
 
 2 - Criar uma task pre-processamento para validar se os dados se encontram no formato correto utilizando Pyspark:   
 
- * - sepal_length range( 4.3,7.9)  
- * - sepal_width range(2.0,4.4)  
- * - petal_length range(1.0,6.9)  
- * - petal_width range(0.1,2.5)   
- * - classEncoder range(0,2)   
- * - class ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']   
+ * sepal_length range( 4.3,7.9)  
+ * sepal_width range(2.0,4.4)  
+ * petal_length range(1.0,6.9)  
+ * petal_width range(0.1,2.5)   
+ * classEncoder range(0,2)   
+ * class ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']   
      
 4 - Utilizar a lib pydeequ para gerar o data quality report. (Gerar o report após a leitura do arquivo e após ter realizado o tratamento dos dados.)
 
@@ -35,22 +35,22 @@ OBS2: Criar um arquivo com os registros removidos contendo a mensagem do erro co
 
 ## Atividade 2   
 
-Objetivo: Orquestrar todo o fluxo de processamento necessários para execução de um modelo de machine learning utilizando o airflow.   
+_Negrito_ Objetivo: Orquestrar todo o fluxo de processamento necessários para execução de um modelo de machine learning utilizando o airflow.   
 
 ## Etapas a serem desenvolvidas:   
 
-- Criar uma task etl responsável pela leitura do arquivo Iris tratado (Atividade 01) e utilize a lib pandas-schema para verificar se os dados estão no formato correto. Se o arquivo estiver correto continuar para a próxima task e em caso de erro pausar o processamento e enviar mensagem de erro.   
+1 - Criar uma task etl responsável pela leitura do arquivo Iris tratado (Atividade 01) e utilize a lib pandas-schema para verificar se os dados estão no formato correto. Se o arquivo estiver correto continuar para a próxima task e em caso de erro pausar o processamento e enviar mensagem de erro.   
  
- 1 - sepal_length range(4.3,7.9)    
- 2 - sepal_width range(2.0,4.4)     
- 3 - petal_length range(1.0,6.9)   
- 4 - petal_width range(0.1,2.5)    
- 5 - classEncoder range(0,2)   
- 6 - class ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']   
+ * sepal_length range(4.3,7.9)    
+ * sepal_width range(2.0,4.4)     
+ * petal_length range(1.0,6.9)   
+ * petal_width range(0.1,2.5)    
+ * classEncoder range(0,2)   
+ * class ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']   
    
-- Criar uma task de grupo que contenha:   
-1 - Execução algoritmo1 de ML para o dataset Iris
-2 - Execução algoritmo2 de ML para o dataset Iris
+2 - Criar uma task de grupo que contenha:   
+* Execução algoritmo1 de ML para o dataset Iris
+* Execução algoritmo2 de ML para o dataset Iris
       OBS1: O processamento deve ser realizado de forma paralela
 
       OBS2: Utilizar o MLFlow para gerenciar os modelos criados
