@@ -55,8 +55,8 @@
 * 
 * Execução algoritmo2 de ML para o dataset Iris
 * 
-      **OBS1:** O processamento deve ser realizado de forma paralela
+      OBS: O processamento deve ser realizado de forma paralela
 
-      **OBS2:** Utilizar o MLFlow para gerenciar os modelos criados
+      OBS2: Utilizar o MLFlow para gerenciar os modelos criados
 
 - [Atividade 02](./Trabalho_02/)
