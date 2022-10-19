@@ -1,8 +1,11 @@
 #### PÓS GRADUAÇÃO ENGENHERIA DE DADOS PUC MINAS
 
-# Cultura e Práticas Dataops e Mlops
+# Trabalho Prático - Cultura e Práticas Dataops e Mlops
 
 ## Professor Jean Carlos Alves
+
+
+
 
 ## Atividade 1
 
