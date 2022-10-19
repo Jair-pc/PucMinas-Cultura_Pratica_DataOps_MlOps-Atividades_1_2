@@ -35,7 +35,7 @@ OBS2: Criar um arquivo com os registros removidos contendo a mensagem do erro co
 
 ## Atividade 2   
 
-_Negrito_ Objetivo: Orquestrar todo o fluxo de processamento necessários para execução de um modelo de machine learning utilizando o airflow.   
+**Negrito** Objetivo: Orquestrar todo o fluxo de processamento necessários para execução de um modelo de machine learning utilizando o airflow.   
 
 ## Etapas a serem desenvolvidas:   
 
